@@ -12,7 +12,7 @@
                   </ul>
                     <div class="form-group">
                         <label>Enter password:</label>
-                        <input type="password" formControlName="password" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.password.errors }" />
+                        <input type="password" formControlName="password" class="form-control" />
                         <div class="pasword-strength-wrapper">
                             password strength: {{strength}}
                           <div class="password-strength" [ngStyle]="{ 'width' : strengthWidth + '%', 'background-color' : strengthColor }"></div>
